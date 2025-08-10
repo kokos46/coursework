@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B55046172E4881E20076CA4C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B55046162E4881E20076CA4C /* libiconv.tbd */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B56C6F042E4861E600F673A5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B55046162E4881E20076CA4C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		B56C6F062E4861E600F673A5 /* coursework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coursework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -35,16 +40,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55046172E4881E20076CA4C /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B55046152E4881E20076CA4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55046162E4881E20076CA4C /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B56C6EFD2E4861E600F673A5 = {
 			isa = PBXGroup;
 			children = (
 				B56C6F082E4861E600F673A5 /* coursework */,
+				B55046152E4881E20076CA4C /* Frameworks */,
 				B56C6F072E4861E600F673A5 /* Products */,
 			);
 			sourceTree = "<group>";
