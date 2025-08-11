@@ -13,4 +13,10 @@ struct Record {
 
 std::string cp1251_to_utf8(const char* cp1251_str);
 
+#include "queueFunc.h"
+
+void merge(Queue& a, int q, Queue& b, int r, Queue& c);
+void split(Queue& S, Queue& a, Queue& b, int& n);
+void mergeSort(Queue& S);
+
 #endif

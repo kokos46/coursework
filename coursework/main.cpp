@@ -23,6 +23,11 @@ int main() {
     
     Queue database;
     
+    for(int i = 0; i < 4000; i++){
+        database.add(data[i]);
+    }
+    
+    database.print();
     
     delete[] data;
     return 0;
